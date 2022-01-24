@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOOQNA-PRODUCTS</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header"> 
+
+<div class="container">
+<div class="navbar">
+<div class="logo">
+	<a href="index.html"><img src="images\logo1.png" width="100px"></a>
+</div>
+<nav>
+<ul id="MenuItems">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="products.html">Products</a></li>
+	<li><a href="#ft">About</a></li>
+	<li><a href="">Contact</a></li>
+	<li><a href="">Account</a></li>
+</ul>
+</nav>
+	<a href="cart.html"><img src="images\cart.png" width="30px" height="30px" class="cart"></a>
+	<img src="images\menu.png" class="micon" onclick="menutoggle()">
+</div>
+	
+</div>	
+</div>
+<!------cart------>
+<div class="details-product cartpage">
+	<table>
+		  <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+  <tr>
+    <td>
+  		<div class="infocart">
+  			<img src="images\2395.jpg">
+  		  <div>
+  		  	<p>Summer T-shirt</p>
+  		  	<small>Price: $50.00</small><br>
+  		  	<a href="">Remove</a>
+  		  </div>
+  		</div>
+
+  	</td>
+  	<td><input type="number" value="1"></td>
+  	<td>%50.00</td>
+  </tr>
+  <tr>
+    <td>
+  		<div class="infocart">
+  			<img src="images\buy-2.jpg">
+  		  <div>
+  		  	<p>Coach</p>
+  		  	<small>Price: $55.00</small><br>
+  		  	<a href="">Remove</a>
+  		  </div>
+  		</div>
+
+  	</td>
+  	<td><input type="number" value="1"></td>
+  	<td>%55.00</td>
+  </tr>
+  <tr>
+    <td>
+  		<div class="infocart">
+  			<img src="images\buy-3.jpg">
+  		  <div>
+  		  	<p>Pants and Coach</p>
+  		  	<small>Price: $240.00</small><br>
+  		  	<a href="">Remove</a>
+  		  </div>
+  		</div>
+
+  	</td>
+  	<td><input type="number" value="1"></td>
+  	<td>%50.00</td>
+  </tr>
+  <tr>
+    <td>
+  		<div class="infocart">
+  			<img src="images\2404.jpg">
+  		  <div>
+  		  	<p>Hoodies</p>
+  		  	<small>Price: $150.00</small><br>
+  		  	<a href="">Remove</a>
+  		  </div>
+  		</div>
+
+  	</td>
+  	<td><input type="number" value="1"></td>
+  	<td>%50.00</td>
+  </tr>
+	</table>
+</div>
+</div>
+
+
+<!------footer------>
+<div class="footer" id="ft">
+<div class="container">
+<div class="row">
+<div class="fcol1">
+<h3>Download Our App</h3>
+<p>Download App for Android and ios mobile phone</p>
+<div class="ios-android">
+	<img src="images\android.png">
+	<img src="images\ios.png">
+</div>
+</div>
+<div class="fcol2">
+
+<img src="images\logo1.png">
+<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accesible to the Many.</p>
+</div>
+<div class="fcol3">
+<h3>Useful Links</h3>
+<ul>
+	<li>Coupons</li>
+	<li>Blog Post</li>
+	<li>Return Policy</li>
+	<li>Join Affiliate</li>
+
+</ul>
+</div>
+<div class="fcol3">
+<h3>Follow Us</h3>
+<ul>
+	<li>Facebook</li>
+	<li>Twitter</li>
+	<li>Instagram</li>
+	<li>YouTube</li>
+
+</ul>
+</div>
+</div>
+<hr>
+<p class="ahmed">&copy;COPYRIGHT Ahmed R Safi - 2021</p>
+</div>
+</div>
+<!-- --------toggle-------->
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px") 
+			{
+				MenuItems.style.maxHeight = "200px";
+			}
+		
+		else{
+			MenuItems.style.maxHeight = "0px";
+		}
+
+}
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
